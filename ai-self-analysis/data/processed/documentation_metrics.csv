@@ -1,0 +1,7 @@
+repo_name,clarity_10,reproducibility_10,completeness_10,overall_avg,feedback,missing_readme,cluster,quality_label
+covid19-policy-impact-analysis,10,3,10,7.67,"Add an Install/Setup section (requirements, environment). Add a Usage section (how to run the notebook/project).",False,0,1
+Analyzing-Historical-Stock-Revenue-Data-and-Building-a-Dashboard-by-EMAN,4,3,3,3.33,"Add an Install/Setup section (requirements, environment). Add a Usage section (how to run the notebook/project). Add Results/Findings/Key Insights so readers know what you discovered. Use headings (##) to improve readability.",False,0,0
+DataScienceEcosytem,4,3,3,3.33,"Add an Install/Setup section (requirements, environment). Add a Usage section (how to run the notebook/project). Add Results/Findings/Key Insights so readers know what you discovered. Use headings (##) to improve readability.",False,0,0
+SpaceX,4,3,3,3.33,"Add an Install/Setup section (requirements, environment). Add a Usage section (how to run the notebook/project). Add Results/Findings/Key Insights so readers know what you discovered. Use headings (##) to improve readability.",False,0,0
+emanzahrashah,0,0,0,0.0,"No README found. Add a README with Overview, Setup, Usage, and Results.",True,1,0
+hiring-bias-fairness-analysis,0,0,0,0.0,"No README found. Add a README with Overview, Setup, Usage, and Results.",True,1,0
