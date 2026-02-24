@@ -92,10 +92,10 @@ Project topic trends
 ## LLM Execution Proof
 
 ### Phi-3 Local Evaluation
-![Phi3](assets/phi3-evaluation.png)
+![Phi3](../assets/phi3-evaluation.png)
 
 ### Mistral Local Evaluation
-![Mistral](assets/mistral-evaluation.png)
+![Mistral](../assets/mistral-evaluation.png)
 
 Top 5 Key Insights
 
@@ -129,5 +129,6 @@ Author
 
 
 Eman Zahra
+
 
 
