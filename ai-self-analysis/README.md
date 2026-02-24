@@ -89,6 +89,14 @@ KMeans clustering visualization
 
 Project topic trends
 
+## LLM Execution Proof
+
+### Phi-3 Local Evaluation
+![Phi3](assets/phi3-evaluation.png)
+
+### Mistral Local Evaluation
+![Mistral](assets/mistral-evaluation.png)
+
 Top 5 Key Insights
 
 Documentation clarity has the strongest correlation with overall repository quality.
@@ -121,3 +129,4 @@ Author
 
 
 Eman Zahra
+
