@@ -39,7 +39,9 @@ Setup Instructions
 
 Clone the repository:
 
-git clone https://github.com/emanazhrashah/github-self-analysis.git
+git clone 
+
+https://github.com/emanzahrashah/github-self-analysis.git
 
 Navigate into the folder:
 
@@ -116,5 +118,6 @@ Compare additional local LLMs
 Deploy dashboard online
 
 Author
+
 
 Eman Zahra
