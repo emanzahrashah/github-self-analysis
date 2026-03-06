@@ -125,10 +125,14 @@ Compare additional local LLMs
 
 Deploy dashboard online
 
+YouTube Video LINK
+https://youtu.be/gCOyImxMf8s
+
 Author
 
 
 Eman Zahra
+
 
 
 
