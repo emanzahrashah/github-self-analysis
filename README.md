@@ -92,10 +92,12 @@ Project topic trends
 ## LLM Execution Proof
 
 ### Phi-3 Local Evaluation
-![Phi3](../assets/phi3-evaluation.png)
+<img width="960" height="540" alt="phi3-evaluation" src="https://github.com/user-attachments/assets/866a7e61-d31b-49e1-9c1e-7555c0cc0cb3" />
+
 
 ### Mistral Local Evaluation
-![Mistral](../assets/mistral-evaluation.png)
+<img width="960" height="540" alt="mistral-evaluation" src="https://github.com/user-attachments/assets/da436e30-2ba0-4ae1-95cd-754223e021e1" />
+
 
 # Top 5 Key Insights
 
