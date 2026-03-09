@@ -1,5 +1,5 @@
-GitHub Self Analysis – AI Powered Repository Review
-Overview
+# GitHub Self Analysis – AI Powered Repository Review
+# Overview
 
 This project analyzes personal GitHub repositories using data science techniques and locally hosted large language models (LLMs).
 
@@ -7,7 +7,7 @@ The main objective is to evaluate documentation quality, repository structure, a
 
 Instead of reviewing repositories manually, this project combines traditional data science methods with AI-generated evaluation to produce structured insights.
 
-Tools and Technologies Used
+## Tools and Technologies Used
 
 Python
 
@@ -25,7 +25,7 @@ Phi-3 (Local model)
 
 Mistral (Local model)
 
-Project Structure
+## Project Structure
 github-self-analysis/
 │
 ├── dashboard/           # Plotly Dash application
@@ -37,13 +37,13 @@ github-self-analysis/
 └── README.md
 Setup Instructions
 
-Clone the repository:
+## Clone the repository:
 
 git clone 
 
 https://github.com/emanzahrashah/github-self-analysis.git
 
-Navigate into the folder:
+## Navigate into the folder:
 
 cd github-self-analysis
 
@@ -59,7 +59,7 @@ To run models locally:
 ollama run phi3
 ollama run mistral
 
-These models were prompted to evaluate repositories on:
+## These models were prompted to evaluate repositories on:
 
 Clarity
 
@@ -71,7 +71,7 @@ Each model produced structured scoring and reasoning output.
 
 Running the Dashboard
 
-To launch the interactive dashboard:
+## To launch the interactive dashboard:
 
 python dashboard/app.py
 
@@ -97,7 +97,7 @@ Project topic trends
 ### Mistral Local Evaluation
 ![Mistral](../assets/mistral-evaluation.png)
 
-Top 5 Key Insights
+# Top 5 Key Insights
 
 Documentation clarity has the strongest correlation with overall repository quality.
 
@@ -125,13 +125,14 @@ Compare additional local LLMs
 
 Deploy dashboard online
 
-YouTube Video LINK
+## YouTube Video LINK
 https://youtu.be/gCOyImxMf8s
 
 Author
 
 
 Eman Zahra
+
 
 
 
