@@ -1,5 +1,6 @@
 # GitHub Self Analysis – AI Powered Repository Review
-## Overview
+# Overview
+
 This project analyzes personal GitHub repositories using data science techniques and locally hosted large language models (LLMs).
 
 The main objective is to evaluate documentation quality, repository structure, and development patterns in a systematic and measurable way.
@@ -7,6 +8,7 @@ The main objective is to evaluate documentation quality, repository structure, a
 Instead of reviewing repositories manually, this project combines traditional data science methods with AI-generated evaluation to produce structured insights.
 
 ## Tools and Technologies Used
+
 Python
 
 Pandas
@@ -24,27 +26,41 @@ Phi-3 (Local model)
 Mistral (Local model)
 
 ## Project Structure
-github-self-analysis/ │ ├── dashboard/ # Plotly Dash application ├── data/ # Raw and processed repository data ├── notebooks/ # Analysis notebooks ├── prompts/ # LLM evaluation prompts ├── reports/ # Technical report (PDF) ├── requirements.txt # Dependencies └── README.md Setup Instructions
+github-self-analysis/
+│
+├── dashboard/           # Plotly Dash application
+├── data/                # Raw and processed repository data
+├── notebooks/           # Analysis notebooks
+├── prompts/             # LLM evaluation prompts
+├── reports/             # Technical report (PDF)
+├── requirements.txt     # Dependencies
+└── README.md
+Setup Instructions
 
 ## Clone the repository:
-git clone
+
+git clone 
 
 https://github.com/emanzahrashah/github-self-analysis.git
 
-Navigate into the folder:
+## Navigate into the folder:
+
 cd github-self-analysis
 
 Install dependencies:
 
-pip install -r requirements.txt Running Local LLM Models
+pip install -r requirements.txt
+Running Local LLM Models
 
 Local models were executed using Ollama.
 
 To run models locally:
 
-ollama run phi3 ollama run mistral
+ollama run phi3
+ollama run mistral
 
 ## These models were prompted to evaluate repositories on:
+
 Clarity
 
 Completeness
@@ -53,16 +69,17 @@ Reproducibility
 
 Each model produced structured scoring and reasoning output.
 
-## Running the Dashboard
+Running the Dashboard
 
-To launch the interactive dashboard:
+## To launch the interactive dashboard:
+
 python dashboard/app.py
 
 Then open your browser at:
 
 http://127.0.0.1:8050
 
-## The dashboard displays:
+The dashboard displays:
 
 Documentation score distribution
 
@@ -72,14 +89,16 @@ KMeans clustering visualization
 
 Project topic trends
 
-LLM Execution Proof
-Phi-3 Local Evaluation
-Phi3
+## LLM Execution Proof
 
-Mistral Local Evaluation
-Mistral
+### Phi-3 Local Evaluation
+![Phi3](../assets/phi3-evaluation.png)
 
-## Top 5 Key Insights
+### Mistral Local Evaluation
+![Mistral](../assets/mistral-evaluation.png)
+
+# Top 5 Key Insights
+
 Documentation clarity has the strongest correlation with overall repository quality.
 
 Projects with structured README files score significantly higher in completeness.
@@ -90,7 +109,13 @@ Mistral produces more detailed reasoning and structured explanations.
 
 Phi-3 responds faster and provides concise evaluations.
 
-Model Comparison Feature Phi-3 Mistral Speed Fast Moderate Response Length Concise Detailed Reasoning Depth Moderate High Consistency Good Very Good Future Improvements
+Model Comparison
+Feature	Phi-3	Mistral
+Speed	Fast	Moderate
+Response Length	Concise	Detailed
+Reasoning Depth	Moderate	High
+Consistency	Good	Very Good
+Future Improvements
 
 Add automated scoring pipeline
 
@@ -104,5 +129,6 @@ Deploy dashboard online
 https://youtu.be/gCOyImxMf8s
 
 Author
+
 
 Eman Zahra
