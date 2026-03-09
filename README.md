@@ -1,12 +1,12 @@
-GitHub Self Analysis – AI Powered Repository Review
-Overview
+# GitHub Self Analysis – AI Powered Repository Review
+## Overview
 This project analyzes personal GitHub repositories using data science techniques and locally hosted large language models (LLMs).
 
 The main objective is to evaluate documentation quality, repository structure, and development patterns in a systematic and measurable way.
 
 Instead of reviewing repositories manually, this project combines traditional data science methods with AI-generated evaluation to produce structured insights.
 
-Tools and Technologies Used
+## Tools and Technologies Used
 Python
 
 Pandas
@@ -23,10 +23,10 @@ Phi-3 (Local model)
 
 Mistral (Local model)
 
-Project Structure
+## Project Structure
 github-self-analysis/ │ ├── dashboard/ # Plotly Dash application ├── data/ # Raw and processed repository data ├── notebooks/ # Analysis notebooks ├── prompts/ # LLM evaluation prompts ├── reports/ # Technical report (PDF) ├── requirements.txt # Dependencies └── README.md Setup Instructions
 
-Clone the repository:
+## Clone the repository:
 git clone
 
 https://github.com/emanzahrashah/github-self-analysis.git
@@ -44,7 +44,7 @@ To run models locally:
 
 ollama run phi3 ollama run mistral
 
-These models were prompted to evaluate repositories on:
+## These models were prompted to evaluate repositories on:
 Clarity
 
 Completeness
@@ -53,7 +53,7 @@ Reproducibility
 
 Each model produced structured scoring and reasoning output.
 
-Running the Dashboard
+## Running the Dashboard
 
 To launch the interactive dashboard:
 python dashboard/app.py
@@ -62,7 +62,7 @@ Then open your browser at:
 
 http://127.0.0.1:8050
 
-The dashboard displays:
+## The dashboard displays:
 
 Documentation score distribution
 
@@ -79,7 +79,7 @@ Phi3
 Mistral Local Evaluation
 Mistral
 
-Top 5 Key Insights
+## Top 5 Key Insights
 Documentation clarity has the strongest correlation with overall repository quality.
 
 Projects with structured README files score significantly higher in completeness.
@@ -100,7 +100,7 @@ Compare additional local LLMs
 
 Deploy dashboard online
 
-YouTube Video LINK
+## YouTube Video LINK
 https://youtu.be/gCOyImxMf8s
 
 Author
